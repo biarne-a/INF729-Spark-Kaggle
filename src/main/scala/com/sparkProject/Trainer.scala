@@ -128,6 +128,6 @@ object Trainer {
 
     df_WithPredictions.groupBy("final_status", "predictions").count.show()
 
-    model.save("best_logisitic_regression")
+    model.write.overwrite.save("best_logisitic_regression")
   }
 }
