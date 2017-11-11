@@ -8,7 +8,7 @@ Pour obtenir la prédiction:
    - ./build_and_submit.sh Preprocessor
 
 2) Preparer / entrainer le modèle / faire la prédiction et sauvegarder le résultat
-   - ./build_and_submit.sh Trainer
+   - ./build_and_submit.sh Trainer > prediction_result.txt
 
 
 NB: Afin de ne pas alourdir le repository, le résultat du préprocessing n'a pas été commité sur github.
